@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>It's My Birthday!</title>
+  <style>
+    :root{
+      --max-width: 900px;
+      --accent: #111;
+    }
+    body{
+      font-family: Georgia, "Times New Roman", Times, serif;
+      margin: 20px;
+      color: #111;
+      display: flex;
+      justify-content: center;
+    }
+    .container{
+      max-width: var(--max-width);
+      width: 100%;
+    }
+    h1{
+      font-size: 3rem;
+      margin: 0 0 10px;
+    }
+    .date{
+      font-size: 1.75rem;
+      margin: 0 0 18px;
+    }
+    .hero-img{
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      margin-bottom: 28px;
+    }
+    .section-title{
+      font-size: 1.6rem;
+      margin: 28px 0 12px;
+    }
+    ul{
+      font-size: 1.05rem;
+      line-height: 1.6;
+    }
+    a.map-link{
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 1.05rem;
+      color: #0056b3;
+      text-decoration: underline;
+    }
+    /* responsive */
+    @media (max-width:600px){
+      h1{ font-size: 2rem; }
+      .date{ font-size: 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>It's My Birthday!</h1>
+    <p class="date">On the 12th May</p>
+
+    <!-- Remplace le src par ton image locale ou une URL -->
+    <img class="hero-img" src="512180-happy-birthday-card-background.jpg" alt="Birthday cake with balloons">
+
+    <h2 class="section-title">What to bring:</h2>
+    <ul>
+      <li>Baloons (I love baloons)</li>
+      <li>Cake (I'm really good at eating)</li>
+      <li>An appetite (There will be lots of food)</li>
+    </ul>
+
+    <h2 class="section-title">This is where you need to go:</h2>
+    <!-- Remplace le lien ci-dessous par ton lien Google Maps -->
+    <a class="map-link" href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer">Google map link</a>
+  </div>
+</body>
+</html>
